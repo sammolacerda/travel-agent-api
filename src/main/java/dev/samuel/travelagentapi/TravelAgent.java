@@ -2,6 +2,9 @@ package dev.samuel.travelagentapi;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
+import dev.langchain4j.service.MemoryId;
+
+import java.util.UUID;
 
 public interface TravelAgent {
 
@@ -29,6 +32,7 @@ public interface TravelAgent {
             Respond in the same language as the user.
             """)
     String chat(
+            @MemoryId UUID conversationId,
             @UserMessage String message
     );
 }
