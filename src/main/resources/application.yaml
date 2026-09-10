@@ -27,7 +27,7 @@ travel:
       base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
       model: ${OLLAMA_MODEL:gpt-oss:20b}
       temperature: ${OLLAMA_TEMPERATURE:0.2}
-      timeout: ${OLLAMA_TIMEOUT:120s}
+      timeout: ${OLLAMA_TIMEOUT:240s}
 
     langchain4j:
       log-requests: true
