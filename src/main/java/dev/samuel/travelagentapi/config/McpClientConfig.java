@@ -1,4 +1,4 @@
-package dev.samuel.travelagentapi;
+package dev.samuel.travelagentapi.config;
 
 import java.util.List;
 

@@ -1,9 +1,11 @@
-package dev.samuel.travelagentapi;
+package dev.samuel.travelagentapi.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import dev.samuel.travelagentapi.config.TravelAgent;
 
 import java.util.UUID;
 
